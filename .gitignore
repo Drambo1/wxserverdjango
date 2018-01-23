@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
 
 # C extensions
@@ -86,6 +85,10 @@ celerybeat-schedule
 .venv
 venv/
 ENV/
+
+# pycharm
+.idea/
+db.sqlite3
 
 # Spyder project settings
 .spyderproject
