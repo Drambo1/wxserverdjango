@@ -14,7 +14,7 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    url(r'^service$', views.OCRService.as_view(), name='Server Service'),
+    url(r'^$', views.wxService.as_view(), name='Server Service'),
 ]
 
 if __name__ == '__main__':
